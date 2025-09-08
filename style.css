@@ -1,0 +1,49 @@
+body {
+  text-align: center;   
+  display: block;   
+  
+}
+
+label {
+  display: block;
+  margin-bottom: -35px;
+}
+  
+
+input {
+  width: 130px;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: -500px;
+  border: solid;
+  border-color: rgb(108, 103, 103);
+  border-width: 2px;
+}
+
+button {
+  width: 145px;
+  padding: 8px;
+  border-radius: 4px;
+  border: solid;
+  border-width: 2px;
+  color: white;
+  background-color: rgb(51, 112, 197);
+  border-color: blue;
+  cursor: pointer;
+}
+
+p {
+  color: red;
+}
+
+#fel {
+  font-size: 15px;
+}
+
+#välkommensida {
+  font-size: 25px;
+}
+
+#logoutButton {
+  font-size: 10px;
+}
