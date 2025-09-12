@@ -10,15 +10,14 @@ const rättAnvändarnamn = "test";
 const rättLösenord = "1234";
 
 välkommensida.style.display = "none";
+inloggningssida.style.display = "none";
 
 window.onload = function() {
 
 if (ärInloggad === "true") {
-inloggningssida.style.display = "none";
 välkommensida.style.display = "block";
 } else {
 inloggningssida.style.display = "block";
-välkommensida.style.display = "none";
 }
 };
 
@@ -42,11 +41,12 @@ const lösenord = document.getElementById("lösenord").value;
 logoutButton.addEventListener("click", function() {
   localStorage.removeItem("ärInloggad");
 
-  const användarnamn = document.getElementById("användarnamn");
-  const lösenord = document.getElementById("lösenord");
-  
+
   välkommensida.style.display = "none";
   inloggningssida.style.display = "block";
+
+  const användarnamn = document.getElementById("användarnamn");
+  const lösenord = document.getElementById("lösenord");
   
   användarnamn.value = "";
   lösenord.value = "";  
