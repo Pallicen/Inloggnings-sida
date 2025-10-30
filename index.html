@@ -4,21 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src = "script.js" defer ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Inloggningssida</title>
 </head>
 <body>
 
 <div id="inloggningssida">
-  <h2>Logga in</h2>
+  <h2>USER LOGIN</h2>
 
-  <label for="användarnamn">Användarnamn:</label>
-  <input type="text" id="användarnamn">
+  <div id="inputFält">
+  <label for="användarnamn"></label>
+  <input type="text" id="användarnamn" placeholder="Username(test)">
   
-  <label for="lösenord">Lösenord:</label>
-  <input type="password" id="lösenord">
-  
-  <button id="loginButton">Logga in</button>
+  <label for="lösenord"></label>
+  <input type="password" id="lösenord" placeholder="Password(1234)">
+  </div>
+
+  <button id="loginButton">LOGIN</button>
+
   <p id = "fel"></p>
 </div>
 

@@ -34,7 +34,7 @@ const lösenord = document.getElementById("lösenord").value;
    välkommensida.style.display = "block";
 
   } else {
-    fel.textContent = "Fel användarnamn \neller lösenord";
+    fel.textContent = "Fel användarnamn eller lösenord";
   }
 });
 
